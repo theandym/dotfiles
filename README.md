@@ -1,20 +1,19 @@
-dotfiles
-========
+# dotfiles
 
-My dotfiles. Feel free to copy / modify.
-
-
-Install
--------
-
-`git clone https://github.com/theandym/dotfiles.git .dotfiles && cd .dotfiles && source bootstrap.sh && cd -`
+Dotfiles to make system configuration easy.
 
 
-Credits
--------
+### Install / Update
 
-Sources I was inspired by / copied from / adapted from are referenced on a
-file-by-file basis. The following resources were also used:
+To install:
 
-* https://github.com/mathiasbynens/dotfiles
-* https://github.com/janmoesen/tilde
+    git clone https://github.com/theandym/dotfiles.git .dotfiles && cd .dotfiles && source bootstrap.sh && cd ..
+
+To update:
+
+    cd .dotfiles && source bootstrap.sh && cd ..
+
+
+### Credits
+
+Files contain links to credit major resources used in development.
