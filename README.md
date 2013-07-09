@@ -7,7 +7,7 @@ My dotfiles. Feel free to copy / modify.
 Install
 -------
 
-`git clone https://github.com/theandym/dotfiles.git .dotfiles && cd .dotfiles && source bootstrap.sh`
+`git clone https://github.com/theandym/dotfiles.git .dotfiles && cd .dotfiles && source bootstrap.sh && cd -`
 
 
 Credits
