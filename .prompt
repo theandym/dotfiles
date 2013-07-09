@@ -44,7 +44,7 @@ function git_branch () {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ \1$(git_dirty)/"
 }
 
-PS1="\[$BOLD\]\[$MAGENTA\]\u\[$ORANGE\]@\H\[$RESET\]\[$GREEN\]:\w\[$PURPLE\]\$(git_branch)\[$WHITE\] \$ \[$RESET\]"
+PS1="\[$MAGENTA\]\u\[$ORANGE\]@\H\[$GREEN\]:\w\[$PURPLE\]\$(git_branch)\[$WHITE\] \$ \[$RESET\]"
 
 #####
 
