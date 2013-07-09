@@ -1,0 +1,7 @@
+# Make vim the default editor
+export EDITOR="vim"
+
+#####
+
+# Credits:
+# https://github.com/mathiasbynens/dotfiles/blob/master/.exports

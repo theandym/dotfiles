@@ -1,0 +1,19 @@
+# Custom system configuration files
+.custom
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+#####
+
+# Credits:
+# https://github.com/mathiasbynens/dotfiles/blob/master/.gitignore

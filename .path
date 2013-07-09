@@ -1,0 +1,7 @@
+# Add /usr/local/bin and /usr/local/sbin to PATH
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+#####
+
+# Credits:
+# http://daniel.hepper.net/blog/2011/02/change-order-of-path-entries-on-mac-os-x/

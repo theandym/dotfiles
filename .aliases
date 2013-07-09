@@ -1,0 +1,14 @@
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# Shortcuts
+alias free="free -m"
+alias ll="ls -la"
+alias svim="sudo vim"
+
+#####
+
+# Credits:
+# https://github.com/mathiasbynens/dotfiles/blob/master/.aliases
