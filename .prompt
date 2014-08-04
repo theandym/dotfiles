@@ -44,7 +44,15 @@ function git_branch () {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ \1$(git_dirty)/"
 }
 
-PS1="\[$MAGENTA\]\u\[$ORANGE\]@\H\[$GREEN\]:\w\[$PURPLE\]\$(git_branch)\[$WHITE\] \$ \[$RESET\]"
+function prompt_custom () {
+  if [ -z "$PROMPT_CUSTOM" ]; then
+    echo " "
+  else
+    echo " $PROMPT_CUSTOM "
+  fi
+}
+
+PS1="\[$MAGENTA\]\u\[$ORANGE\]@\H\[$GREEN\]:\w\[$PURPLE\]\$(git_branch)\[$WHITE\]\$(prompt_custom)\$ \[$RESET\]"
 
 #####
 
